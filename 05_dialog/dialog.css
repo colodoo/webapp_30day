@@ -1,0 +1,27 @@
+/* dialog */
+
+.dialog {
+  /* 正中间 */
+  position: fixed;
+  width: 80%;
+  height: 200px;
+  background-color: transparent;
+  z-index: 2018;
+  overflow: hidden;
+  /* 过渡 */
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
+}
+
+.dialog__run {
+  top: 50vh;
+  left: 50%;
+  /* 
+    初始化居中
+    先向左移动自身50%宽度
+    再向上移动自身50%高度
+  */
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+}

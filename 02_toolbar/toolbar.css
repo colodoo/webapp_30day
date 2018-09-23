@@ -1,0 +1,19 @@
+/* toolbar */
+
+.toolbar {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.toolbar__inner {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.toolbar__item {
+  font-size: 20px !important;
+  color: #38f;
+}

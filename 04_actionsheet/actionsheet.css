@@ -1,0 +1,27 @@
+.footer {
+  background-color: #f7f7fa;
+}
+
+.action-sheet {
+  width: 100%;
+  /* 过渡 */
+  -webkit-transition: transform .3s ease-in-out;
+  -moz-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  /* Y轴移动自身100% */
+  transform: translatey(100%);
+  -webkit-transform: translateY(100%);
+  background-color: #ffffff;
+  height: 100px;
+  /* 固定在底部 */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2018;
+  background-color: #ffffff;
+}
+
+.action-sheet__run {
+  transform: translatey(0);
+  -webkit-transform: translateY(0);
+}
