@@ -14,7 +14,7 @@
 - [03_tabbar](./03_tabbar/tabbar.html)  
 - [04_actionsheet](./04_actionsheet/actionsheet.html)  
 - [05_dialog](./05_dialog/dialog.html)  
-- [06_swiper](./06_swiper/swiper.html)  
+- [06_swiper](./06_swiper/SWIPER.md)  
 
 ## 社区
 
