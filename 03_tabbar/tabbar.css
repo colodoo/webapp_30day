@@ -1,18 +1,31 @@
 /* tabbar */
 
 .tabbar {
+  height: 100%;
   width: 100%;
 }
 
 .tabbar__inner {
+  height: 100%;
   width: 100%;
   display: flex;
-  justify-content: space-around;
 }
 
 .tabbar__item {
-  width: 45px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.tabbar__item i {
+  display: block;
   font-size: 30px !important;
+  margin: 0 auto;
+}
+
+.tabbar__item:active {
+  background-color: #ececec;
+  color: #38f;
 }
 
 .tabbar__item:hover {
