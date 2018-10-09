@@ -1,0 +1,67 @@
+/* loadding */
+
+.loadding {
+  /* 正中间 */
+  position: fixed;
+  width: 40%;
+  height: 100px;
+  /* line-height: 100px; */
+  background-color: transparent;
+  z-index: 2018;
+  border-radius: 5px;
+  overflow: hidden;
+  /* 过渡 */
+  -webkit-transition: background-color .3s ease-in;
+  -moz-transition: background-color .3s ease-in;
+  transition: background-color .3s ease-in;
+}
+
+.loadding i::before {
+  -webkit-animation: spin 1s linear infinite;
+  /*鼠标hover时，i图标旋转,infinite表示动画无限循环*/
+  animation: spin 1s linear infinite;
+}
+
+.loadding i::before {
+  display: block;
+  color: #aaa !important;
+  font-size: 30px !important;
+  width: 30px;
+  height: 30px;
+  /* margin: 0 auto; */
+}
+
+.loadding__run {
+  top: 50vh;
+  left: 50%;
+  /* 
+    初始化居中
+    先向左移动自身50%宽度
+    再向上移动自身50%高度
+  */
+  transform: translateX(-50%) translateY(-50%);
+  background-color: hsla(0, 0%, 7%, .7);
+}
+
+/*定义动画*/
+
+@-webkit-keyframes spin {
+  /*兼容性写法。spin是关键帧的动画名称*/
+  from {
+    /*动画起始状态*/
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    /*动画结束状态*/
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
