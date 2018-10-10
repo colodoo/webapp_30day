@@ -1,0 +1,81 @@
+/* tabbar */
+
+.tabbar {
+  width: 100%;
+}
+
+.tabbar__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabbar__item {
+  width: 45px;
+  font-size: 30px !important;
+}
+
+.tabbar__item:hover {
+  color: #38f;
+}
+
+/* toolbar */
+
+.toolbar {
+  display: flex;
+  width: 100%;
+}
+
+.toolbar__inner {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.toolbar__item {
+  font-size: 20px !important;
+  color: #38f;
+}
+
+/* card */
+
+.card {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.card__header {
+  height: 43px;
+  line-height: 45px;
+  width: 100%;
+  display: flex;
+}
+
+.card-header__inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .card-header__item {} */
+
+.card__body {
+  padding: 20px;
+}
+
+.search {
+  padding: 5px;
+  width: 100%;
+  background-color: #EFEFF4;
+}
+
+.search__box {
+  border: 0px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
