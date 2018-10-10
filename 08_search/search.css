@@ -69,13 +69,37 @@
   padding: 5px;
   width: 100%;
   background-color: #EFEFF4;
+  overflow: hidden;
 }
 
 .search__box {
+  float: left;
   border: 0px;
   background-color: #ffffff;
   padding: 5px;
   border-radius: 5px;
   outline: none;
   width: 100%;
+  transition: all .3s ease;
+}
+
+.search__box:focus+.search__cancel {
+  width: 5%;
+  transform: translate3d(5px, 0px, 0px);
+}
+
+.search__box:focus {
+  width: 95%;
+}
+
+.search__cancel {
+  height: 0px;
+  width: 0px;
+  float: left;
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transition: all .3s ease;
+  transform: translate3d(20px, 0px, 0px);
 }
