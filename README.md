@@ -15,7 +15,7 @@
 - [04_actionsheet](./04_actionsheet/ACTIONSHEET.md)  
 - [05_dialog](./05_dialog/dialog.html)  
 - [06_swiper](./06_swiper/SWIPER.md)  
-- [07_loadding (存在上下抖动问题)](./07_loadding/loadding.html)  
+- [07_loading (存在上下抖动问题)](./07_loading/loading.html)  
 - [08_search](./08_search/search.html)  
 
 ## 社区
