@@ -17,6 +17,8 @@
 - [06_swiper](./06_swiper/SWIPER.md)  
 - [07_loading (存在上下抖动问题)](./07_loading/loading.html)  
 - [08_search](./08_search/search.html)  
+- [09_switch](./09_switch/SWITCH.md)  
+- 
 
 ## 社区
 
